@@ -1,0 +1,208 @@
+/* START OF HOME and across whole website SECTION*/
+.about-me-btn {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: #ced6dc;
+}
+
+.get-in-touch {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover.get-in-touch {
+  text-decoration: none;
+  color: white;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  border-bottom-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 350px;
+  letter-spacing: 3px;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+h5 {
+  text-align: center;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+a:hover.nav-link {
+  font-weight: 650;
+}
+
+/*START OF ABOUT SECTION*/
+
+table {
+  margin: 50px 100px;
+}
+
+img {
+  border-radius: 20px;
+  box-shadow: 15px 15px 40px rgb(131, 129, 129),
+    -15px -15px 40px rgb(131, 129, 129);
+}
+
+.circular {
+  border-radius: 100%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.certificate-header {
+  text-align: center;
+  padding: 10px;
+}
+
+.certificateLogo {
+  border-radius: 30%;
+  box-shadow: none;
+}
+
+.fw-normal /*h3 certificates*/ {
+  padding-top: 20px;
+}
+
+/*START OF SKILLS SECTION*/
+.skills-logo {
+  width: 150px;
+  height: 150px;
+  margin: 0 20px;
+}
+
+/*START OF PROJECTS SECTION*/
+.album {
+  padding: 0px;
+  background-color: #ced6dc;
+  margin: 30px;
+}
+
+.project-cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.viewDemoBtn{
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover.viewDemoBtn{
+  color: white;
+}
+
+/*START OF CONTACT ME SECTION BELOW*/
+.connect-on {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  float: left;
+  margin: 30px;
+  height: 450px;
+  width: 40%;
+}
+
+.contact-page {
+  display: flex;
+  gap: 10px;
+}
+
+.connect-list {
+  padding: 30px;
+  text-align: center;
+  list-style: none;
+  border-style: dotted;
+  padding: 25px 10px;
+  margin: 30px 30px;
+  border-radius: 35%;
+  border-color: #ced6dc;
+}
+
+.connect-links {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 3px;
+}
+
+.connect-on-header {
+  padding: 20px;
+  background-color: #ced6dc;
+  text-align: center;
+}
+
+.connect-on-email {
+  font-size: large;
+  font-weight: 600;
+  color: black;
+}
+
+a:hover.connect-links {
+  color: rgb(73, 73, 216);
+}
+
+.enquiries-header {
+  padding: 20px;
+  background-color: #ced6dc;
+  text-align: center;
+}
+
+.enquiries {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  float: right;
+  margin: 30px;
+  height: 450px;
+  width: 60%;
+  clear: both;
+  display: table;
+}
+
+.enquiries-list {
+  padding: 5px;
+  list-style: none;
+  text-align: left;
+}
+
+.submit-button {
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+textarea {
+  clear: both;
+  width: 100%;
+  resize: none;
+  height: 100px;
+}
+
+input {
+  clear: both;
+  width: 100%;
+}
